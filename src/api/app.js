@@ -1,6 +1,6 @@
 import request from '@/utils/request'
 
-export function appList(query) {
+export function appList (query) {
   return request({
     url: '/app/app_list',
     method: 'get',
@@ -8,7 +8,7 @@ export function appList(query) {
   })
 }
 
-export function appDetail(query) {
+export function appDetail (query) {
   return request({
     url: '/app/app_detail',
     method: 'get',
@@ -16,7 +16,7 @@ export function appDetail(query) {
   })
 }
 
-export function appStat(query) {
+export function appStat (query) {
   return request({
     url: '/app/app_stat',
     method: 'get',
@@ -24,7 +24,7 @@ export function appStat(query) {
   })
 }
 
-export function appDelete(query) {
+export function appDelete (query) {
   return request({
     url: '/app/app_delete',
     method: 'get',
@@ -32,7 +32,7 @@ export function appDelete(query) {
   })
 }
 
-export function appAdd(data) {
+export function appAdd (data) {
   return request({
     url: '/app/app_add',
     method: 'post',
@@ -40,7 +40,7 @@ export function appAdd(data) {
   })
 }
 
-export function appUpdate(data) {
+export function appUpdate (data) {
   return request({
     url: '/app/app_update',
     method: 'post',
